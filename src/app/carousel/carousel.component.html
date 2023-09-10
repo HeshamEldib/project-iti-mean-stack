@@ -12,7 +12,7 @@
     >
       <swiper-slide *ngFor="let item of items">
         <div class="carouselItem">
-          <a [routerLink]="">
+          <a [routerLink]="route + item.id">
             <div class="card">
               <div class="poster-block">
                 <img
